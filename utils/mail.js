@@ -11,7 +11,7 @@ const transporter = nodemailer.createTransport({
 
 async function sendCode(email, code) {
   await transporter.sendMail({
-    from: "Hero Path",
+    from: "Heroes Path",
     to: email,
     subject: "Код подтверждения",
     text: "Ваш код: " + code

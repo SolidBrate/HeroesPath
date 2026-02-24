@@ -7,7 +7,7 @@
     "start": "node server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "SolidBrate",
   "license": "ISC",
   "description": "",
   "dependencies": {
